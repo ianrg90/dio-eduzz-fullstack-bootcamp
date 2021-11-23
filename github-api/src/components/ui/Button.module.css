@@ -1,0 +1,17 @@
+button{
+    width: max-content;
+    height: 30px;
+    border: none;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.2s ease-out;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    transform: scale(1.1);
+}
